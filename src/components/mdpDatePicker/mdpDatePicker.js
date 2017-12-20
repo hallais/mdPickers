@@ -152,7 +152,8 @@ module.provider("$mdpDatePicker", function() {
                     currentDate: currentDate,
                     options: options
                 },
-                skipHide: true
+                skipHide: true,
+                multiple: true
             });
         };
     
